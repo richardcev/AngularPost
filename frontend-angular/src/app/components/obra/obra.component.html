@@ -1,0 +1,8 @@
+<html>
+    <h1><b>LISTADO DE OBRAS</b></h1>
+    <a href="http://localhost:4200/crearobra" class="btn btn-primary">Crear Obra</a>
+    <div class="container mt-5 mb-3">
+        <app-listaobra [dataEntrante]="detalleObra"
+        *ngFor="let detalleObra of listObras"></app-listaobra>
+    </div>
+</html>
